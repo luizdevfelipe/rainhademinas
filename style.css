@@ -6,8 +6,22 @@
     padding: 0px;
 }
 
+#burguer{
+    display: block;
+    background-color: rgb(228, 24, 24);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+#burguer:hover{
+    background-color: brown;
+}
+
 menu{
     background-color: rgb(228, 24, 24);
+    display: none;
+    overflow: hidden;
 }
 
 menu > ul{
@@ -19,6 +33,7 @@ menu > ul > li{
     margin: auto;
     text-align: center;
     margin-bottom: 5px;
+    transition: 3s;
 }
 
 menu > ul > li > a{
@@ -33,4 +48,16 @@ menu > ul > li > a{
 menu > ul > li > a:hover{
     background-color: brown;
     border-left: 3px solid #f5b3b3;
+}
+
+main > div.container{
+    background-color: #FFF3C7;
+    text-align: center;
+    overflow: hidden;
+}
+
+main > img#logo{
+    display: block;  
+
+    
 }
