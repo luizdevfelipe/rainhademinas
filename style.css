@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('fonts/static/DancingScript-SemiBold.ttf') format('truetype');
+}
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -33,7 +38,6 @@ menu > ul > li{
     margin: auto;
     text-align: center;
     margin-bottom: 5px;
-    transition: 3s;
 }
 
 menu > ul > li > a{
@@ -57,7 +61,7 @@ main > div.container{
 }
 
 main > img#logo{
-    display: block;      
+    display: block;     
 }
 
 main > div {
@@ -71,5 +75,18 @@ main > div#mesa{
     box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.678);
     width: 100%;
     height: 700px;
+}
+
+main p#slogan{
+    padding: 30px;        
+    background-color: #F2C548;
+    text-align: center;
+}
+
+p#slogan > q{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.3em;
+    color: white;
+    text-shadow: 0px 0px  8px #521011c4;    
 }
 
