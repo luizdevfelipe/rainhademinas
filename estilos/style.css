@@ -77,16 +77,20 @@ main > div#mesa{
     height: 700px;
 }
 
-main p#slogan{
+#slogan{
+    display: block;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.3em;
+    color: white;
+    text-shadow: 0px 0px  8px #521011c4;    
     padding: 30px;        
     background-color: #F2C548;
     text-align: center;
 }
 
-p#slogan > q{
-    font-family: 'Dancing Script', cursive;
-    font-size: 2.3em;
-    color: white;
-    text-shadow: 0px 0px  8px #521011c4;    
+p {
+    font-size: 1.4em;
+    line-height: 1.3em;
+    text-indent: 25px;
+    text-align: justify;
 }
-
