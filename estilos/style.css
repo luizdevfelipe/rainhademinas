@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Dancing Script';
-    src: url('fonts/static/DancingScript-SemiBold.ttf') format('truetype');
+    src: url('../fonts/static/DancingScript-SemiBold.ttf') format('truetype');
 }
 
 *{
@@ -16,7 +16,7 @@
     background-color: rgb(228, 24, 24);
     color: white;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
 }
 
 #burguer:hover{
@@ -69,7 +69,7 @@ main > div {
 }
 
 main > div#mesa{
-    background: #FFF3C7 url('imagens/mesa-cel.jpg') center center no-repeat;
+    background: #FFF3C7 url('../imagens/mesa-cel.jpg') center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
     box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.678);

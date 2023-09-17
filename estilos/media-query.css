@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* 
+celular: 600 até 768
+
+tablet: 768 até 992
+
+pc: 992 até 1200
+
+tv: > 1200
+*/
+
+@media screen and (min-width: 992px) {
+    #burguer{
+        display: none;
+    }
+
+    menu{
+        display: block;
+    }
+
+    menu > ul > li{       
+        float: left;
+        width: 25%;
+        height: 55px;
+        margin-bottom: 0px;
+    }
+  
+    menu > ul > li > a{
+        padding-top: 15px;
+        height: 100%;
+    }
+}
