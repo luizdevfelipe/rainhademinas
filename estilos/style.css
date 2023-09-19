@@ -57,11 +57,11 @@ menu > ul > li > a:hover{
 main > div.container{
     background-color: #FFF3C7;
     text-align: center;
-    overflow: hidden;
 }
 
-main > img#logo{
-    display: block;     
+main > div.container > img#logo{    
+    width: 400px;
+    height: 400px;
 }
 
 main > div {

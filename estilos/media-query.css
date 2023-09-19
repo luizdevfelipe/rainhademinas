@@ -31,6 +31,11 @@ tv: > 1200
         height: 100%;
     }
 
+    main > div.container > img#logo{
+        width: 500px;
+        height: 500px;
+    }
+
     main > div#mesa{
         background: #FFF3C7 url('../imagens/mesa-pc.jpg') center center no-repeat;
         background-size: cover;
