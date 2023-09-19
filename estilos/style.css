@@ -11,6 +11,10 @@
     padding: 0px;
 }
 
+body{
+    background-color: #FFF3C7;
+}
+
 #burguer{
     display: block;
     background-color: rgb(228, 24, 24);
@@ -54,12 +58,9 @@ menu > ul > li > a:hover{
     border-left: 3px solid #f5b3b3;
 }
 
-main > div.container{
-    background-color: #FFF3C7;
-    text-align: center;
-}
-
-main > div.container > img#logo{    
+main > img#logo{   
+    display: block;
+    margin: auto;
     width: 400px;
     height: 400px;
 }
@@ -88,7 +89,7 @@ main > #slogan{
     text-align: center;
 }
 
-p {
+main > p{
     font-size: 1.4em;
     line-height: 1.3em;
     text-indent: 25px;
@@ -96,7 +97,3 @@ p {
     padding: 10px;
 }
 
-p#sobre{
-    background-color: #FFF3C7;
-    
-}
