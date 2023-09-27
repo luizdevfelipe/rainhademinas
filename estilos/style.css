@@ -89,11 +89,21 @@ main > #slogan{
     text-align: center;
 }
 
-main > p{
+main div#sobre{
     font-size: 1.4em;
     line-height: 1.3em;
     text-indent: 25px;
     text-align: justify;
+}
+
+main div#sobre > p {
     padding: 10px;
 }
 
+div#img{
+    width: 100%;
+    height: 800px;
+    background-image: url('../imagens/cozinha-cel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

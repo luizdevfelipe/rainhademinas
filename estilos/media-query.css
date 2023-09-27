@@ -47,8 +47,19 @@ tv: > 1200
         margin-bottom: 2px;
     }
 
-    main > p#sobre{        
-        max-width: 1200px;
-        margin: auto;
+    main div#sobre > p {
+        padding-top: 20px;
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+
+    .alinhado{
+        width: 50%;
+        float: left;
+        height: 600px;
+    }
+
+    div#img{
+        width: 50%;
     }
 }
