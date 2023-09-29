@@ -107,3 +107,22 @@ div#img{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+footer{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
+    height: 30px;
+    padding-top: 10px;
+    font-style: italic;
+}
+
+footer > a{
+    color: white;    
+}
+
+footer > a:hover{
+    transition: .5s;
+    text-decoration: none;
+    font-weight: bold;
+}
