@@ -48,8 +48,8 @@ tv: > 1200
 
     main div#sobre > p {
         padding-top: 20px;
-        font-size: 2vw;
-        line-height: 3vw;
+        font-size: 1.3em;
+        line-height: 1.2em;
     }
 
     .alinhado{
