@@ -8,6 +8,25 @@
     <link rel="stylesheet" href="estilos/media-query.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+
+    <style>
+        div#contato{
+            background: #FFF3C7 url('imagens/contato-cel.jpg') center center no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.678);
+            width: 100%;
+            height: 700px;
+        }
+
+        @media screen and (min-width:992px) {
+            div#contato{
+                background: #FFF3C7 url('imagens/contato-pc.jpg') center center no-repeat;
+               background-size: cover;
+               background-attachment: fixed;
+            }
+        }
+    </style>
 </head>
 <body onresize="tamanho_tela()">
     <header>
@@ -27,7 +46,7 @@
     <main>
         <img id="logo" src="imagens/logo_marca.png" alt="Logo Restaurante">
         
-
+        <div id="contato"></div>
 
 
     </main>
