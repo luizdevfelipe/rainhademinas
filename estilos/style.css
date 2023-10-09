@@ -134,3 +134,30 @@ footer > a:hover{
     background-color: #F2C548;
     text-align: center;
 }
+
+form{
+    text-align: center;
+    margin: 5px auto;
+    padding: 10px;
+    background-color: #f2c5488f;
+    border-radius: 8px;
+    width: 400px;
+}
+
+textarea{
+    resize: none;
+}
+
+input{
+    margin: 7px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+}
+
+input:focus{
+    outline: none;
+    background-color: rgb(255, 245, 216);
+}

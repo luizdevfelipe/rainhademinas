@@ -31,7 +31,7 @@
                background-size: cover;
                background-attachment: fixed;
             }            
-        }
+        }        
     </style>
 </head>
 <body onresize="tamanho_tela()">
@@ -56,6 +56,27 @@
 
         <p class="destaque">entreemcontato@contato.com</p>
 
+        <form action="" autocomplete="on">
+
+            <div>
+                <label for="inome"><span class="material-symbols-outlined">
+                    person
+                </span></label>
+                <input type="name" name="nome" id="inome">
+            </div>
+
+            <div>
+                <label for="iemail"><span class="material-symbols-outlined">
+                    mail
+                </span></label>
+                <input type="email" name="email" id="iemail">
+            </div>
+
+            <div>
+                <textarea name="texto" id="itexto" cols="30" rows="10"></textarea>
+            </div>
+
+        </form>
     </main>
 
     <footer>
