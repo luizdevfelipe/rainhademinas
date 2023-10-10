@@ -66,8 +66,8 @@ menu > ul > li > a:hover{
 main > img#logo{   
     display: block;
     margin: auto;
-    width: 400px;
-    height: 400px;
+    width: 340px;
+    height: 340px;
 }
 
 main > div {
@@ -130,8 +130,7 @@ footer > a:hover{
     text-align: center;
 }
 
-.parallax{
-    
+.parallax{    
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -148,11 +147,20 @@ form{
     padding: 10px;
     background-color: #f2c5488f;
     border-radius: 8px;
-    width: 400px;
+    width: 340px;
+}
+
+form span{
+    font-size: 50px;
 }
 
 textarea{
     resize: none;
+}
+
+textarea:focus{
+    outline: none;
+    background-color: rgb(255, 245, 216);
 }
 
 input{
