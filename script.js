@@ -13,3 +13,8 @@ function tamanho_tela(){
         menu.style.display = 'none'
     }
 }
+
+function mensagem(){
+    alert('Mensagem Enviada!')
+   
+}

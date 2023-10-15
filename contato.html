@@ -14,6 +14,11 @@
             background-image:url('imagens/contato-cel.jpg');
         }
 
+        .icones{
+            font-size: 41px;
+            transform: translate(7px,14px);
+        }
+
         @media screen and (max-width: 600px){
             .destaque{
                 font-size: 1.4em;
@@ -49,26 +54,30 @@
 
         <p class="destaque">entreemcontato@contato.com</p>
 
-        <form action="" autocomplete="on">
+        <form action="" autocomplete="on" onsubmit="mensagem()">
 
             <div>
-                <label for="inome"><span class="material-symbols-outlined">
+                <label for="inome"><span class="material-symbols-outlined icones">
                     person
                 </span></label>
-                <input type="name" name="nome" id="inome">
+                <input type="name" name="nome" id="inome" required autocomplete="name" placeholder="    Nome completo">
             </div>
 
             <div>
-                <label for="iemail"><span class="material-symbols-outlined">
+                <label for="iemail"><span class="material-symbols-outlined icones">
                     mail
                 </span></label>
-                <input type="email" name="email" id="iemail">
+                <input type="email" name="email" id="iemail" required autocomplete="email" placeholder="    E-mail">
             </div>
 
             <div>
-                <textarea name="texto" id="itexto" cols="30" rows="10"></textarea>
+                <textarea name="texto" id="itexto" cols="25" rows="10" placeholder="       Digite sua mensagem" required></textarea>
             </div>
 
+            <div>
+                <input type="submit" value="Enviar" class="largura">
+                <input type="reset" value="Limpar" class="largura">
+            </div>
         </form>
     </main>
 

@@ -156,11 +156,16 @@ form span{
 
 textarea{
     resize: none;
+    font-size: 1.1em;
 }
 
 textarea:focus{
     outline: none;
     background-color: rgb(255, 245, 216);
+}
+
+.tamanho-ico{
+    font-size: 35px;
 }
 
 input{
@@ -170,6 +175,11 @@ input{
     border: none;
     border-bottom: 2px solid black;
     border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.largura{
+    width: 114px;
 }
 
 input:focus{
