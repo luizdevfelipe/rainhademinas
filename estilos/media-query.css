@@ -59,4 +59,16 @@ tv: > 1200
     div#img{
         width: 50%;
     }
+
+    /* ------------ Página de Localização ------------ */
+
+    div#fachada{
+        background-image: url('../imagens/fachada-pc.jpg');
+    }
+
+    /* ------------ Página de Contato ------------ */
+
+    div#contato{
+        background-image: url('../imagens/contato-pc.jpg');               
+    }   
 }
