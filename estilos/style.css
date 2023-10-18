@@ -11,7 +11,7 @@
     padding: 0px;
 }
 
-body{
+.fundo{
     background-color: #FFF3C7;    
 }
 
@@ -149,7 +149,7 @@ footer > a:hover{
 
 /* ------------ Página de Contato ------------ */
 
-div#contato{
+#contato{
     background-image:url('../imagens/contato-cel.jpg');
 }
 
