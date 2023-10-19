@@ -15,10 +15,10 @@
     background-color: #FFF3C7;    
 }
 
-header{
+/* header{
     position: sticky;
     top: 0;
-}
+} */
 
 #burguer{
     display: block;
@@ -67,7 +67,7 @@ main > img#logo{
     display: block;
     margin: auto;
     width: 340px;
-    height: 340px;
+    padding: 20px 0px;
 }
 
 main > div {
