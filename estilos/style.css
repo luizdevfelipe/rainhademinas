@@ -28,39 +28,8 @@
     padding: 10px;
 }
 
-#burguer:hover{
+.menu-cor{
     background-color: brown;
-}
-
-menu{
-    background-color: rgb(228, 24, 24);
-    display: none;
-    overflow: hidden;
-}
-
-menu > ul{
-    list-style-type: none;
-    display: block;
-}
-
-menu > ul > li{
-    margin: auto;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-menu > ul > li > a{
-    display: block;
-    text-decoration: none;
-    color: white;
-    font-size: 1.3em;
-    padding: 8px;
-    border-left: 3px solid white;
-}
-
-menu > ul > li > a:hover{
-    background-color: brown;
-    border-left: 3px solid #f5b3b3;
 }
 
 main > img#logo{   
