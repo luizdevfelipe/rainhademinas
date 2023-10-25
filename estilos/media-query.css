@@ -65,6 +65,10 @@ tv: > 1200
         background-image: url('../imagens/fachada-pc.jpg');
     }
 
+    iframe{
+        width: 900px;
+    }
+
     /* ------------ Página de Contato ------------ */
 
     div#contato{
