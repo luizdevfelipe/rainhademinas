@@ -62,7 +62,7 @@ tv: > 1200
     /* ------------ Página de Localização ------------ */
 
     div#fachada{
-        background-image: url('../imagens/fachada-pc.jpg');
+        background-image: url('../imagens/fabrica.png');
     }
 
     iframe{
