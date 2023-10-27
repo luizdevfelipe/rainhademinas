@@ -35,9 +35,18 @@ tv: > 1200
         width: 500px;
     }
 
-    main > div#mesa{
-        background-image: url('../imagens/mesa-pc.jpg');
+    main div#primeiro{
+        background-image: url('../imagens/carrosel/bolachas-pc.jpg');
     }
+
+    main div#segundo{
+        background-image: url('../imagens/carrosel/biscoito-pc.jpg');
+    }
+
+    main div#terceiro{
+        background-image: url('../imagens/carrosel/rosquinha-pc.jpg');
+    }
+
 
     main > #slogan{
         font-size: 2.8em;

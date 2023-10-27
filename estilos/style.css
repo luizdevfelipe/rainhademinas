@@ -38,10 +38,17 @@ main > div {
     overflow: hidden;
 }
 
-main div#mesa{
-    background-image:  url('../imagens/mesa-cel.jpg');
+main div#primeiro{
+    background-image:  url('../imagens/carrosel/bolachas-cel.jpg');
 }
 
+main div#segundo{
+    background-image:  url('../imagens/carrosel/biscoito-cel.jpg');
+}
+
+main div#terceiro{
+    background-image:  url('../imagens/carrosel/rosquinha-cel.jpg');
+}
 main > q{
     display: block;
     font-family: 'Dancing Script', cursive;   
@@ -83,10 +90,6 @@ footer > a:hover{
     transition: .5s;
     text-decoration: none;
     font-weight: bold;
-}
-
-.altura{
-    height: 600px;
 }
 
 /* ------------ Página de Localização ------------ */
