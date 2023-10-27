@@ -1,35 +1,6 @@
 @charset "UTF-8";
 
-/* 
-celular: 600 até 768
-
-tablet: 768 até 992
-
-pc: 992 até 1200
-
-tv: > 1200
-*/
-
 @media screen and (min-width: 992px) {
-    #burguer{
-        display: none;
-    }
-
-    menu{
-        display: block;
-    }
-
-    menu > ul > li{       
-        float: left;
-        width: 25%;
-        height: 55px;
-        margin-bottom: 0px;
-    }
-  
-    menu > ul > li > a{
-        padding-top: 15px;
-        height: 100%;
-    }
 
     main > img#logo{
         width: 500px;
@@ -45,27 +16,6 @@ tv: > 1200
 
     main div#terceiro{
         background-image: url('../imagens/carrosel/rosquinha-pc.jpg');
-    }
-
-
-    main > #slogan{
-        font-size: 2.8em;
-    }
-
-    main div#sobre > p {
-        padding-top: 20px;
-        font-size: 1.3em;
-        line-height: 1.2em;
-    }
-
-    .alinhado{
-        width: 50%;
-        float: left;
-        height: 600px;
-    }
-
-    div#img{
-        width: 50%;
     }
 
     /* ------------ Página de Localização ------------ */

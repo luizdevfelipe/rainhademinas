@@ -1,4 +1,3 @@
 function mensagem(){
-    alert('Mensagem Enviada!')
-   
+    alert('Mensagem Enviada!')   
 }

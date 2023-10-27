@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'Dancing Script';
-    src: url('../fonts/static/DancingScript-SemiBold.ttf') format('truetype');
-}
-
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -13,14 +8,6 @@
 
 .fundo{
     background-color: #FFF3C7;    
-}
-
-#burguer{
-    display: block;
-    background-color: rgb(228, 24, 24);
-    color: white;
-    text-align: center;
-    padding: 10px;
 }
 
 .menu-cor{
@@ -34,10 +21,6 @@ main > img#logo{
     padding: 20px 0px;
 }
 
-main > div {
-    overflow: hidden;
-}
-
 main div#primeiro{
     background-image:  url('../imagens/carrosel/bolachas-cel.jpg');
 }
@@ -48,29 +31,6 @@ main div#segundo{
 
 main div#terceiro{
     background-image:  url('../imagens/carrosel/rosquinha-cel.jpg');
-}
-main > q{
-    display: block;
-    font-family: 'Dancing Script', cursive;   
-}
-
-main div#sobre{
-    font-size: 1.4em;
-    line-height: 1.3em;
-    text-indent: 25px;
-    text-align: justify;
-}
-
-main div#sobre > p {
-    padding: 10px;
-}
-
-div#img{
-    width: 100%;
-    height: 800px;
-    background-image: url('../imagens/cozinha-cel.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 footer{
