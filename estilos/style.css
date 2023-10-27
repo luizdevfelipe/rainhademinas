@@ -85,10 +85,14 @@ footer > a:hover{
     font-weight: bold;
 }
 
+.altura{
+    height: 600px;
+}
+
 /* ------------ Página de Localização ------------ */
 
 #fachada{
-    background-image:url('../imagens/fachada-cel.jpg');            
+    background-image:url('../imagens/fabrica-cel.jpg');            
 }   
 
 .destaque{

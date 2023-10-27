@@ -1,20 +1,14 @@
-function mostraMenu(){
-    if (menu.style.display == 'block'){
-        menu.style.display = 'none'
-    } else {
-        menu.style.display = 'block'
-    }
-}
-
-function tamanho_tela(){
-    if (window.innerWidth >= 992){
-        menu.style.display = 'block'
-    } else {
-        menu.style.display = 'none'
-    }
-}
-
 function mensagem(){
     alert('Mensagem Enviada!')
    
+}
+
+function carrosel(){
+    f1 = document.getElementById('primeiro')
+    f2 = document.getElementById('segundo')
+    f3 = document.getElementById('terceiro')
+
+    if (window.innerWidth >= 992){
+        f1.src = "imagens/carrosel/cesta.jpg"
+    }
 }
