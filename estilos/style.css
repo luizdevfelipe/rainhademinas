@@ -94,6 +94,17 @@ footer > a:hover{
     background-image:url('../imagens/contato-cel.jpg');
 }
 
+p.destaque a{
+    color: white;
+    text-decoration: none;
+}
+
+p.destaque a:hover::after{
+    content: '	\01F517';
+    text-decoration: none;
+}
+
+
 form{
     text-align: center;
     margin: 15px auto;
