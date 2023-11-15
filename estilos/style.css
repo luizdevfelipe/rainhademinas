@@ -33,6 +33,16 @@ main div#terceiro{
     background-image:  url('../imagens/carrosel/rosquinha-cel.jpg');
 }
 
+.carousel-caption:hover{
+    transform: scale(1.1, 1.1);
+    transition-duration: 1s;
+}
+
+.botoes:hover{
+    background-color: rgba(0, 0, 0, 0.192);
+    transition-duration: 1.3s;
+}
+
 footer{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.801);
@@ -149,4 +159,11 @@ input{
 input:focus{
     outline: none;
     background-color: rgb(255, 245, 216);
+}
+
+/* ------------ Página de Cardápio ------------ */
+
+div.container#fotos  .col-lg:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 2.5s;
 }
