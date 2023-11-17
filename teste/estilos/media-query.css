@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+
+    main > img#logo{
+        width: 500px;
+    }
+
+    main div#primeiro{
+        background-image: url('../imagens/carrosel/bolachas-pc.jpg');
+    }
+
+    main div#segundo{
+        background-image: url('../imagens/carrosel/biscoito-pc.jpg');
+    }
+
+    main div#terceiro{
+        background-image: url('../imagens/carrosel/rosquinha-pc.jpg');
+    }
+
+    /* ------------ Página de Localização ------------ */
+
+    div#fachada{
+        background-image: url('../imagens/fabrica-pc.jpg');
+    }
+
+    iframe{
+        width: 900px;
+    }
+
+    /* ------------ Página de Contato ------------ */
+
+    div#contato{
+        background-image: url('../imagens/contato-pc.jpg');               
+    }   
+}
