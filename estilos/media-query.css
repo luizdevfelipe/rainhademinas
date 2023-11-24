@@ -33,4 +33,9 @@
     div#contato{
         background-image: url('../imagens/contato-pc.jpg');               
     }   
+
+    p.destaque a::after{
+        content: '	\01F517';
+    }
+    
 }

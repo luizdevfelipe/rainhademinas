@@ -109,11 +109,9 @@ p.destaque a{
     text-decoration: none;
 }
 
-p.destaque a:hover::after{
-    content: '	\01F517';
-    text-decoration: none;
+p.destaque a:hover{
+    text-decoration: underline;
 }
-
 
 form{
     text-align: center;
@@ -163,7 +161,8 @@ input:focus{
 
 /* ------------ Página de Cardápio ------------ */
 
-div.container#fotos  .col-lg:hover{
-    transform: scale(1.1, 1.1);
-    transition: all 2.5s;
+
+#fotos{
+    opacity: 30%;
+    transition: all 3.2s;
 }
